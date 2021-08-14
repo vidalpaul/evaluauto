@@ -17,7 +17,7 @@ GET http://localhost:3000/auth?email=asdf2@asdf.com
 
 
 ### Delete a user with a given id
-DELETE  http://localhost:3000/auth/2
+DELETE  http://localhost:3000/auth/5
 
 ### Update a user
 PATCH http://localhost:3000/auth/3
