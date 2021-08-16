@@ -8,6 +8,19 @@ content-type: application/json
     "trash": 999
 }
 
+
+### Sign in
+POST http://localhost:3000/auth/signin
+content-type: application/json
+
+{
+    "email": "newuserafterauth@asdf.com",
+    "password": "asdfgdh",
+    "trash": 999
+}
+
+
+
 ### Find a particular user with a given ID
 GET http://localhost:3000/auth/1
 
