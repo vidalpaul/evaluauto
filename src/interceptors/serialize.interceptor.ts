@@ -8,12 +8,17 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { plainToClass } from 'class-transformer';
 
-export function Serialize(dto: any) {
+// TypeScript doesn't offer good type safety when handling decorators, so this interface merely ensures that functions that receive a DTO must receive a class
+interface ClassConstructor {
+  new (...args: any[]): {};
+}
+
+export function Serialize(dto: ClassConstructor) {
   return UseInterceptors(new SerializeInterceptor(dto));
 }
 
 export class SerializeInterceptor implements NestInterceptor {
-  constructor(private dto: any) {}
+  constructor(private dto: ClassConstructor) {}
 
   intercept(context: ExecutionContext, handler: CallHandler): Observable<any> {
     // Run before a request is handled by the request handler
