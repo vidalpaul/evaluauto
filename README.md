@@ -46,3 +46,7 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+### What have I learned
+Using TypeORM, RxJS observables
+Setting up interceptors, decorators, guards
