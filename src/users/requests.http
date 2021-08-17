@@ -3,7 +3,7 @@ POST http://localhost:3000/auth/signup
 content-type: application/json
 
 {
-    "email": "newuserafterauth@asdf.com",
+    "email": "newuseraftercookie2@asdf.com",
     "password": "asdfgdh",
     "trash": 999
 }
@@ -14,7 +14,7 @@ POST http://localhost:3000/auth/signin
 content-type: application/json
 
 {
-    "email": "newuserafterauth@asdf.com",
+    "email": "newuseraftercookie@asdf.com",
     "password": "asdfgdh",
     "trash": 999
 }
@@ -23,6 +23,10 @@ content-type: application/json
 
 ### Find a particular user with a given ID
 GET http://localhost:3000/auth/1
+
+
+### Find a particular user with a given ID
+GET http://localhost:3000/auth/whoami
 
 
 ### Find all users with a given email
