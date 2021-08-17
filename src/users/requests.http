@@ -25,8 +25,12 @@ content-type: application/json
 GET http://localhost:3000/auth/1
 
 
-### Find a particular user with a given ID
+### Find WHO AM I
 GET http://localhost:3000/auth/whoami
+
+
+### Sign out
+POST http://localhost:3000/auth/signout
 
 
 ### Find all users with a given email
