@@ -3,7 +3,7 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://raw.githubusercontent.com/vidalpaul/imgs/14707be7244890ae40687091b079054d59d17dd5/nestjs-icon.svg?token=AN7MEJCFCGUFN6N2CQM7TDDBDLBBE" width="64" alt="Nest Logo" /></a>
   <a href="http://nestjs.com/" target="blank"><img src="https://github.com/vidalpaul/imgs/blob/main/typeorm.png?raw=true" width="64" alt="TypeORM Logo" /></a>
   <a href="http://nestjs.com/" target="blank"><img src="https://github.com/vidalpaul/imgs/blob/main/rxjs64.png?raw=true" width="64" alt="RxJS Logo" /></a>
-  <a href="http://nestjs.com/" target="blank"><img src="https://raw.githubusercontent.com/vidalpaul/imgs/14707be7244890ae40687091b079054d59d17dd5/postgresql-icon%20(1).svg?token=AN7MEJFJZ5O7IKMCD6KIDKLBDLBJE" width="64" alt="PostgreSQL Logo" /></a>
+  <a href="http://nestjs.com/" target="blank"><img src="https://raw.githubusercontent.com/vidalpaul/imgs/bd45fcecfcb2265984bd9e6038ce7fd8618ce6ef/sqlite-icon.svg?token=AN7MEJD3FXPBLTLFONKQUN3BDVWGG" width="64" alt="SQLite Logo" /></a>
 </p>
 
 
@@ -50,3 +50,4 @@ $ npm run test:cov
 ### What have I learned
 Using TypeORM, RxJS observables
 Setting up interceptors, decorators, guards
+Building associations between tables
