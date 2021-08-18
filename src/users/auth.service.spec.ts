@@ -46,4 +46,7 @@ describe('AuthService', () => {
       service.signup('asdf@asdf.com', 'pass'),
     ).rejects.toBeInstanceOf(BadRequestException);
   });
+
+  // todo
+  it('throws an error if sign in is called with an unused email', async (done) => {});
 });
