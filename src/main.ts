@@ -13,6 +13,6 @@ async function bootstrap() {
   );
   // strips validated object from unexpect properties, for security reasons
   app.useGlobalPipes(new ValidationPipe({ whitelist: true }));
-  await app.listen(3000);
+  await app.listen(process.env.PORT || 3000);
 }
 bootstrap();
